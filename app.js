@@ -46,7 +46,7 @@ app.use("/api", roomRoutes);
 
 
 const server = http.createServer(app);
-server.listen(3001, () => {
+server.listen(9999, () => {
   console.log("Server connected");
 });
 
